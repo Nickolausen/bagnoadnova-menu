@@ -1,7 +1,5 @@
-import { useEffect, useState } from 'react'
 import Section from './components/Section'
 import MenuLayout from './layouts/MenuLayout'
-import type { Menu } from './types/dishes'
 import all from './db/menus.json'
 
 function App() {
