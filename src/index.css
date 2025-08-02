@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Crackjack';
+    src: url('assets/fonts/Crackajack.woff2') format('woff2'), /* Super Modern Browsers */
+       url('assets/fonts/Crackajack.woff') format('woff'), /* Pretty Modern Browsers */
+}
+
+@font-face {
+    font-family: 'Cream Cake';
+    src: url('assets/fonts/CreamCake.woff2') format('woff2'), /* Super Modern Browsers */
+       url('assets/fonts/CreamCake.woff') format('woff'), /* Pretty Modern Browsers */
+}
+
+@font-face {
+    font-family: 'Onlychalk';
+    src: url('assets/fonts/Onlychalk.woff2') format('woff2'), /* Super Modern Browsers */
+       url('assets/fonts/Onlychalk.woff') format('woff'), /* Pretty Modern Browsers */
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('assets/fonts/HelveticaNeue-Roman.woff2') format('woff2'), /* Super Modern Browsers */
+       url('assets/fonts/HelveticaNeue-Roman.woff') format('woff'), /* Pretty Modern Browsers */
+}
+
+p, small, span {
+    font-family: 'Helvetica';
+}
+
+html, body, #root {
+    min-height: 100dvh;
+    max-width: 100dvw;
+    color: white;
+}
+
+html, body {
+    background-color: black;
+}
+
+#root {
+    background-image: url('/blackboard.jpg');
+    background-position: center;
+    background-origin: border-box;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cream Cake';
+}

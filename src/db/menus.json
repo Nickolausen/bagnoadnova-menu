@@ -1,0 +1,86 @@
+[
+    {
+        "id": "menu010825",
+        "antipasti": [
+            {
+                "dishName": "Tartare di manzo con gelato di pecorino e cipolla caramellata",
+                "price": 14.0
+            },
+            {
+                "dishName": "Carpaccio di pesce spada",
+                "price": 14.0
+            }
+        ],
+        "primi": [
+            {
+                "dishName": "Gnocchetti al ragù di vitello bianco con granella di nocciola",
+                "price": 15.0
+            },
+            {
+                "dishName": "Paccheri con tonno e sugo alla puttanesca",
+                "price": 15.0
+            },
+            {
+                "dishName": "Tagliolino alle vongole",
+                "price": 14.0
+            },
+            {
+                "dishName": "Tagliatelle al ragù",
+                "price": 10.0
+            }
+        ],
+        "secondi": [
+            {
+                "dishName": "Sardoncini fritti con riduzione di soia",
+                "price": 14.00
+            },
+            {
+                "dishName": "Spiedini di sardoncini",
+                "price": 13.00
+            },
+            {
+                "dishName": "Fritto misto",
+                "price": 18.00
+            }
+        ],
+        "insalate": [
+            {
+                "dishName": "Ad Nova",
+                "price": 13.00,
+                "description": "Tonno, pomodori, lattuga, uova sode, mozzarella"
+            },
+            {
+                "dishName": "Greca",
+                "price": 13.00,
+                "description": "Olive nere, feta, pomodorini, lattuga, cetrioli"
+            },
+            {
+                "dishName": "Caprese",
+                "price": 10.00,
+                "description": "Pomodoro e mozzarella"
+            }
+        ],
+        "dolci": [
+            {
+                "dishName": "Cremoso ai due cioccolati con cioccolato bianco e crumble salato",
+                "price": 5.00
+            },
+            {
+                "dishName": "Tiramisù",
+                "price": 5.00
+            },
+            {
+                "dishName": "Semifreddo all'amaretto",
+                "price": 5.00
+            },
+            {
+                "dishName": "Mousse di squacquerone con fichi caramellati",
+                "price": 5.00
+            },
+            {
+                "dishName": "Sorbetto al limone",
+                "price": 5.00
+            }
+        ]
+    }
+]

@@ -1,0 +1,53 @@
+:root {
+    --title-font-size: 4rem;
+    --title-line-height: 4rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    :root {
+        --title-font-size: 6rem;
+        --title-line-height: 5rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) {
+    :root {
+        --title-font-size: 6rem;
+        --title-line-height: 4rem;
+    }
+} */
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) {
+    :root {
+        --title-font-size: 6rem;
+        --title-line-height: 4rem;
+    } 
+} */
+
+/* X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {
+    :root {
+        --title-font-size: 6rem;
+        --title-line-height: 4rem;
+    } 
+} */
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) {
+    :root {
+        --title-font-size: 6rem;
+        --title-line-height: 4rem;
+    }
+} */
+
+.main_title_span, .main_title {
+    font-family: 'Onlychalk';
+}
+
+.main_title {
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height) !important;
+}
