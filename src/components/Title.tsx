@@ -16,7 +16,7 @@ export default function Title({ level, children, className }: TitleProps) {
             selectedTitle = <h2 className={`${classNames} display-2`}>{children}</h2>
             break;
         case 3:
-            selectedTitle = <h3 className={`${classNames}`}>{children}</h3>
+            selectedTitle = <h3 className={`${classNames} display-6`}>{children}</h3>
             break;
         case 4:
             selectedTitle = <h4 className={`${classNames}`}>{children}</h4>

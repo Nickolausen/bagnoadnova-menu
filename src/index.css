@@ -22,22 +22,45 @@
        url('assets/fonts/HelveticaNeue-Roman.woff') format('woff'), /* Pretty Modern Browsers */
 }
 
+:root {
+    --brand-clr: #8bc581;
+    --credits-clr: darkgray;
+}
+
+[data-theme="dark"] {
+    --text-clr: white;
+    --bg-clr: black;
+    --bg-image: url("/blackbg.jpg");
+    --footer-bg-clr: #212529;
+}
+
+[data-theme="light"] {
+    --text-clr: black;
+    --bg-clr: #b4afa5;
+    --bg-image: url("/lightbg.avif");
+    --footer-bg-clr: rgb(206, 218, 229);
+}
+
 p, small, span {
     font-family: 'Helvetica';
+}
+
+a, .btn {
+    color: var(--text-clr);
 }
 
 html, body, #root {
     min-height: 100dvh;
     max-width: 100dvw;
-    color: white;
+    color: var(--text-clr);
 }
 
 html, body {
-    background-color: black;
+    background-color: var(--bg-clr);
 }
 
 #root {
-    background-image: url('/blackboard.jpg');
+    background-image: var(--bg-image);
     background-position: center;
     background-origin: border-box;
     background-size: cover;

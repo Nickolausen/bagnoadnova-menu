@@ -1,4 +1,8 @@
 .credits {
-    font-size: small;
-    color: slategrey;
+    font-size: x-small;
+    color: var(--credits-clr);
+}
+
+.cst_footer {
+    background-color: var(--footer-bg-clr);
 }

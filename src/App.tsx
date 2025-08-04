@@ -10,7 +10,7 @@ function App() {
     <Section dishes={menu?.secondi!} name='Secondi' />
     <Section dishes={menu?.insalate!} name='Le nostre insalate' />
     <Section dishes={menu?.dolci!} name='Dolci' />
-  </MenuLayout> : "loading"
+  </MenuLayout> : "Caricando..."
 }
 
 export default App

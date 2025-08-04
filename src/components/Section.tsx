@@ -15,7 +15,7 @@ export default function Section(props: SectionProps) {
         .normalize()
 
     return <section id={sectionId}>
-        <Title level={2}>{props.name}</Title>
+        <Title level={2}> <a className="text-decoration-none" href={`#${sectionId}`}>{props.name}</a></Title>
         <div className='container-fluid px-0 d-flex flex-column gap-4'>
             { props.dishes.map((dish, idx) => <MenuItem key={dish.dishName + idx} {...dish}/>)}
         </div>

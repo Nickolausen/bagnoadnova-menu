@@ -1,3 +1,8 @@
 .brand_text {
     font-family: "Crackjack" !important;
+    color: var(--brand-clr);
+}
+
+.brand_first_line {
+    margin-bottom: -.35em;
 }
