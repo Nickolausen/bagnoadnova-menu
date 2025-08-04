@@ -3,40 +3,40 @@
         "id": "menu010825",
         "antipasti": [
             {
-                "dishName": "Tartare di manzo con gelato di pecorino e cipolla caramellata",
-                "price": 14.0
+                "dishName": "Tartare di manzo, gelato al pecorino e cipolla caramellata",
+                "price": 15.00
             },
             {
-                "dishName": "Carpaccio di pesce spada",
-                "price": 14.0
+                "dishName": "Polpettine fritte di pesce spada con verdurine saltate e maionese all'arancia",
+                "price": 15.00
             }
         ],
         "primi": [
             {
-                "dishName": "Gnocchetti al ragù di vitello bianco con granella di nocciola",
-                "price": 15.0
+                "dishName": "Passatelli al ragù di vitello bianco e granella di nocciola",
+                "price": 14.00
             },
             {
-                "dishName": "Paccheri con tonno e sugo alla puttanesca",
-                "price": 15.0
+                "dishName": "Tagliolini con tonno alla puttanesca",
+                "price": 14.00
             },
             {
                 "dishName": "Tagliolino alle vongole",
-                "price": 14.0
+                "price": 14.00
             },
             {
                 "dishName": "Tagliatelle al ragù",
-                "price": 10.0
+                "price": 10.00
             }
         ],
         "secondi": [
             {
-                "dishName": "Sardoncini fritti con riduzione di soia",
-                "price": 14.00
+                "dishName": "Sardoncini fritti e riduzione di soia",
+                "price": 15.00
             },
             {
-                "dishName": "Spiedini di sardoncini",
-                "price": 13.00
+                "dishName": "Spiedini di sardoncini gratinati e insalatina di cipolla e radicchio",
+                "price": 15.00
             },
             {
                 "dishName": "Fritto misto",
