@@ -10,7 +10,7 @@ type SectionProps = {
 export default function Section(props: SectionProps) {
     // Le nostre insalate -> le-nostre-insalate
     let sectionId = props.name
-        .replace(' ', '-')
+        .replaceAll(' ', '-')
         .toLowerCase()
         .normalize()
 
